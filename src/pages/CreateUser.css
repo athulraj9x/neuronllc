@@ -1,0 +1,84 @@
+.create-user-page {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.create-user-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.create-user-header h1 {
+  color: #333;
+  margin: 0 0 10px 0;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.create-user-header p {
+  color: #666;
+  margin: 0;
+  font-size: 16px;
+}
+
+.create-user-content {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Forbidden page styles */
+.forbidden-page {
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.forbidden-page h1 {
+  color: #dc3545;
+  font-size: 48px;
+  margin: 0 0 20px 0;
+  font-weight: 700;
+}
+
+.forbidden-page p {
+  color: #666;
+  font-size: 18px;
+  margin: 0 0 30px 0;
+}
+
+.back-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .create-user-page {
+    padding: 15px;
+  }
+  
+  .create-user-header h1 {
+    font-size: 24px;
+  }
+  
+  .forbidden-page h1 {
+    font-size: 36px;
+  }
+}
