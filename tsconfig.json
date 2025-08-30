@@ -20,7 +20,16 @@
       "strict": true,
       "noUnusedLocals": true,
       "noUnusedParameters": true,
-      "noFallthroughCasesInSwitch": true
+      "noFallthroughCasesInSwitch": true,
+      "baseUrl": ".",
+      "paths": {
+         "user-list": [
+            "../packages/user-list/dist"
+         ],
+         "user-profile-form": [
+            "../packages/user-profile-form/dist"
+         ]
+      }
    },
    "include": [
       "src"

@@ -1,8 +1,12 @@
 import React, { useState } from "react"
 import { useAuth } from "../context/AuthContext"
 import { useUsers } from "../context/UserContext"
-import { UserList } from "../../packages/user-list/src/UserList"
-import { UserProfileForm } from "../../packages/user-profile-form/src/UserProfileForm"
+
+import { UserList } from "user-list";
+import { UserProfileForm } from "user-profile-form";
+
+
+
 import { User, UserFormData } from "../types"
 import "./Users.css"
 
