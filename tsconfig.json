@@ -2,11 +2,7 @@
    "compilerOptions": {
       "target": "ES2020",
       "useDefineForClassFields": true,
-      "lib": [
-         "ES2020",
-         "DOM",
-         "DOM.Iterable"
-      ],
+      "lib": ["ES2020", "DOM", "DOM.Iterable"],
       "module": "ESNext",
       "skipLibCheck": true,
       "esModuleInterop": true,
@@ -23,17 +19,11 @@
       "noFallthroughCasesInSwitch": true,
       "baseUrl": ".",
       "paths": {
-         "user-list": [
-            "../packages/user-list/dist"
-         ],
-         "user-profile-form": [
-            "../packages/user-profile-form/dist"
-         ]
+         "user-list": ["./packages/user-list/dist"],
+         "user-profile-form": ["./packages/user-profile-form/dist"]
       }
    },
-   "include": [
-      "src"
-   ],
+   "include": ["src"],
    "references": [
       {
          "path": "./tsconfig.node.json"
