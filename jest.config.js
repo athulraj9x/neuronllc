@@ -4,7 +4,10 @@ export default {
    setupFilesAfterEnv: ["<rootDir>/src/setupTests.ts"],
    moduleNameMapper: {
       "\\.(css|less|scss|sass)$": "identity-obj-proxy",
+      "^user-list$": "<rootDir>/packages/user-list/src",
+      "^user-profile-form$": "<rootDir>/packages/user-profile-form/src",
    },
+   transformIgnorePatterns: ["node_modules/(?!(user-list|user-profile-form)/)"],
    testMatch: [
       "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",
       "<rootDir>/src/**/*.{test,spec}.{js,jsx,ts,tsx}",
